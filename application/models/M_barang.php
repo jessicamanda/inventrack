@@ -23,7 +23,7 @@ class M_barang extends CI_Model{
     {
         $this->db->select('*');
         $this->db->from('barang');
-        $this->db->join('jenis_barang', 'barang.id_jenisbarang = jenis_barang.id_jenisbarang');
+        $this->db->join('jenis_barang', 'barang.id_jenisbarang = jenis_barang.id_jenisbarang', 'left');
         return $this->db->get();
     }
 
@@ -32,7 +32,7 @@ class M_barang extends CI_Model{
     $this->db->select('*');
     $this->db->from('barang');
     $this->db->where('id_barang', $id_barang);
-    return $this->db->get()->row_array(); // Mengembalikan hasil sebagai array
+    return $this->db->get()->row_array();
 }
 
 
@@ -40,7 +40,7 @@ class M_barang extends CI_Model{
     {
         $this->db->select('*');
         $this->db->from('barang');
-        $this->db->join('jenis_barang', 'barang.id_jenisbarang = jenis_barang.id_jenisbarang');
+        $this->db->join('jenis_barang', 'barang.id_jenisbarang = jenis_barang.id_jenisbarang', 'left');
         $this->db->where('barang.id_barang', $id);
         return $this->db->get()->row_array();
     }
