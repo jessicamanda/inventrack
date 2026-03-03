@@ -15,12 +15,12 @@ Sistem Informasi Inventaris dan Peminjaman Barang berbasis **CodeIgniter 3** unt
 
 ## **Fitur Utama**
 
-### **1. Login Sistem**
-### **2. Dashboard**
-### **3. Manajemen Anggota**
-### **4. Manajemen Barang**
-### **5. Transaksi Peminjaman**
-### **6. Laporan**<br><br>
+**1. Login Sistem**<br>
+**2. Dashboard**<br>
+**3. Manajemen Anggota**<br>
+**4. Manajemen Barang**<br>
+**5. Transaksi Peminjaman**<br>
+**6. Laporan**<br><br>
 
 ---
 
