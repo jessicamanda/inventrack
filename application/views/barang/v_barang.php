@@ -22,7 +22,7 @@ if (!empty($this->session->flashdata('info'))) {?>
                         <th>Nama Barang</th>
                         <th>Jenis Barang</th>
                         <th>Spesifikasi</th>
-                        <th>Jumlah</th>
+                        <th>Stok Tersedia</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>

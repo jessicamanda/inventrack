@@ -44,7 +44,7 @@
                         </div>
                         <div class="form-group col-lg-12">
 							<label>Foto Barang</label><br>
-							<input type="file" value="<?= $data['foto_barang'];?>" name="foto_barang">
+							<input type="file" value="<?= $data['foto_barang'];?>" name="foto_barang" class="form-control">
 						</div>
 						<div class="form-group col-lg-6">
                             <a href="<?= base_url()?>Barang" class="btn btn-warning">Cancel</a>
