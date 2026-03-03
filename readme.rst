@@ -1,4 +1,6 @@
+########
 Aplikasi Inventaris & Peminjaman Barang
+########
 Sistem Informasi Inventaris dan Peminjaman Barang berbasis **CodeIgniter 3** untuk membantu pengelolaan data barang, anggota, transaksi peminjaman, serta laporan secara terstruktur dan terintegrasi.
 
 Teknologi yang Digunakan:
